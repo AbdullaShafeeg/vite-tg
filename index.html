@@ -1,9 +1,37 @@
 <!doctype html>
 <html lang="en">
+  <body className="mobile-body">
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <meta name="theme-color" content="#000000"/>
+    <meta charSet="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+    <title>WeAGI</title>
+    <style>
+      .mobile-body {
+        overflow: hidden;
+        height: 100vh;
+      }
+      .mobile-wrap {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background: red;
+      }
+      .mobile-content {
+        height: calc(100% + 1px);
+        background: black;
+      }
+    </style>
     <title>Telegram Mini App</title>
     <script type="module" crossorigin src="/vite-tg/assets/index-vAHanP2q.js"></script>
     <link rel="stylesheet" crossorigin href="/vite-tg/assets/index-QGEh4LWb.css">
